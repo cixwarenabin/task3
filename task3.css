@@ -1,0 +1,69 @@
+
+body{
+    background-image: url(./Image/space.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+}
+.form-box{
+    position: relative;
+    border:1px solid black;
+    margin: 100px auto;
+    width:300px;
+    top:170px;
+    background-color: black;
+    padding: 50px 20px;
+    height: 350px;
+}
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: -50px;
+    position: absolute;
+    border: 1px solid black;
+    margin-left: 100px;
+}
+label, h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+}
+footer{
+    color: grey;
+}
+
+h3{
+    text-align: center;
+    white-space: nowrap;
+    font-size: 30px;
+    padding-top: -10px;
+}
+button{
+    margin: 20px 0;
+    background-color: red;
+    border: none;
+    border-radius: 45px;
+    block-size: 45px;
+    width:100%;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid orangered;
+    height: 40px;
+    font-size: 13px;
+    color: white;
+    background-color: transparent;
+}
+a{
+    color: grey;
+    text-decoration: unset;
+    font-size: 12px;
+}
